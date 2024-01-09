@@ -94,6 +94,7 @@ sudo chmod a+r /usr/local/cuda-11.8/lib64/libcudnn*
 nvidia-smi
 nvcc -V
    ```
+## Output should look as shown  
 ![Verification](images/screenshot0.png)
 
 Reference: [Thanks so much to Mihail-Cosmin Munteanu](https://gist.github.com/MihailCosmin/affa6b1b71b43787e9228c25fe15aeba)  
