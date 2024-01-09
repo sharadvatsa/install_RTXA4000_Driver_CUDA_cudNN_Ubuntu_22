@@ -1,7 +1,8 @@
 # How to install CUDA & cudNN with nVidia RTX A4000 support on Ubuntu 22.04
 
 Description: Comprehensive instructions for installing the NVIDIA A4000 driver, CUDA, and cuDNN on Ubuntu 22, tailored for computer parallel processing with PyTorch and TensorFlow. These guidelines aim to facilitate optimal setup for high-performance computing tasks in genomics  
-Note: Keep in mind when something goes wrong, it's much easier to re-install Ubuntu than trying to uninstall CUDA or cudNN
+Note 1: Register with nVidia to download packages [here](https://developer.nvidia.com/developer-program/signup)
+Note 2: Keep in mind when something goes wrong, it's much easier to re-install Ubuntu than trying to uninstall CUDA or cudNN
 
 ## Steps Overview ####  
 1) Install a fresh Ubuntu copy
@@ -75,8 +76,7 @@ sudo apt update && sudo apt upgrade -y
    source ~/.bashrc
    sudo ldconfig
    ```
-13) Install cuDNN v11  
-    - Register with nVidia to download packages [here](https://developer.nvidia.com/developer-program/signup)
+13) Install cuDNN v11   
    ```text  
 CUDNN_TAR_FILE="cudnn-linux-x86_64-8.7.0.84_cuda11-archive.tar.xz"
 sudo wget https://developer.download.nvidia.com/compute/redist/cudnn/v8.7.0/local_installers/11.8/cudnn-linux-x86_64-8.7.0.84_cuda11-archive.tar.xz
@@ -94,7 +94,4 @@ sudo chmod a+r /usr/local/cuda-11.8/lib64/libcudnn*
 nvidia-smi
 nvcc -V
    ```
-# install Pytorch (an open source machine learning framework)
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-
 Reference: [Thanks so much to Mihail-Cosmin Munteanu](https://gist.github.com/MihailCosmin/affa6b1b71b43787e9228c25fe15aeba)  
