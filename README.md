@@ -6,7 +6,7 @@ Note 2: Keep in mind when something goes wrong, it's much easier to re-install U
 
 ## Steps Overview ####  
 1) Install a fresh Ubuntu copy
-2) ownload and install the nvidia cuda toolkit and cudnn
+2) Download and install the nvidia cuda toolkit and cudnn
 3) Setup environmental variables
 4) Verify the installation
 
