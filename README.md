@@ -1,6 +1,6 @@
 # How to install CUDA & cudNN with nVidia RTX A4000 support on Ubuntu 22.04
 
-Description: Comprehensive instructions for installing the NVIDIA A4000 driver, CUDA, and cuDNN on Ubuntu 22, tailored for computer parallel processing with PyTorch and TensorFlow. These guidelines aim to facilitate optimal setup for high-performance computing tasks in genomics  
+Description: Comprehensive instructions for installing the NVIDIA A4000 driver, CUDA, and cuDNN on Ubuntu 22, as a prerequisite for computer parallel processing with PyTorch and TensorFlow. These guidelines aim to facilitate optimal setup for high-performance computing tasks in genomics  
 Note 1: Register with nVidia to download packages [here](https://developer.nvidia.com/developer-program/signup)  
 Note 2: Keep in mind when something goes wrong, it's much easier to re-install Ubuntu than trying to uninstall CUDA or cudNN  
 
