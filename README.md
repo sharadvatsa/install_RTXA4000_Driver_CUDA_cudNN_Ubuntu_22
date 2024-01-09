@@ -29,7 +29,7 @@ Note 2: Keep in mind when something goes wrong, it's much easier to re-install U
    sudo rm -rf /usr/local/cuda*  
    sudo apt update && sudo apt upgrade -y
    ```
-3) install other import packages  
+3) Install other import packages  
    ```text 
    sudo apt install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev
    ```
@@ -38,11 +38,11 @@ Note 2: Keep in mind when something goes wrong, it's much easier to re-install U
    sudo add-apt-repository ppa:graphics-drivers/ppa
    sudo apt update
    ```
-5) Find recommended driver versions (I used 545)
+5) Find recommended driver versions 
    ```text   
    ubuntu-drivers devices
    ```
-6) Install nvidia driver with dependencies  
+6) Install nvidia driver with dependencies (I used 545)  
    ```text    
    sudo apt install libnvidia-common-545 libnvidia-gl-545 nvidia-driver-545 -y
    ```
