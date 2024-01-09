@@ -97,6 +97,6 @@ nvcc -V
 #### Sucessful Output sample:
 ![Verification](images/screenshot0.png)
 
-16) Option: See other repositories here for Tensorflow, Torch, scVI, and scanpy installations  
+16) Optional: See other repositories here for Tensorflow, Torch, scVI, and scanpy installations  
 
 Reference: [Thanks so much to Mihail-Cosmin Munteanu](https://gist.github.com/MihailCosmin/affa6b1b71b43787e9228c25fe15aeba)  
