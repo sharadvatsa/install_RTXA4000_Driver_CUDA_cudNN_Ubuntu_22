@@ -4,7 +4,7 @@ Description: Comprehensive instructions for installing the NVIDIA A4000 driver, 
 Note 1: Register with nVidia to download packages [here](https://developer.nvidia.com/developer-program/signup)  
 Note 2: Keep in mind when something goes wrong, it's much easier to re-install Ubuntu than trying to uninstall CUDA or cudNN  
 
-## Steps Overview ####  
+## Overview ####  
 1) Install a fresh Ubuntu copy
 2) Download and install the nvidia cuda toolkit and cudnn
 3) Setup environmental variables
