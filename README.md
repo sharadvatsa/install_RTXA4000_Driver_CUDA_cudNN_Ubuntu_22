@@ -8,7 +8,7 @@ Note 2: Keep in mind when something goes wrong, it's much easier to re-install U
 1) Install a fresh Ubuntu copy
 2) Download and install the nvidia cuda toolkit and cudnn
 3) Setup environmental variables
-4) Verify the installation
+4) Verify installation
 
 ## Hardware  
 - CPU Xeon W-3323 3.50GHz × 24 cores
