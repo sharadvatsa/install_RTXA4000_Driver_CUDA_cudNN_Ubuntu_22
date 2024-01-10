@@ -100,3 +100,11 @@ nvcc -V
 16) Optional: See other repositories [here](https://github.com/Kidney-Science/python_single_cell_analisys) for Tensorflow, Torch, scVI, and scanpy installations  
 
 Reference: [Thanks so much to Mihail-Cosmin Munteanu](https://gist.github.com/MihailCosmin/affa6b1b71b43787e9228c25fe15aeba)  
+
+## Useful links
+   ```text
+[cuda_11.8_installation_on_Ubuntu_22.04](https://gist.github.com/MihailCosmin/affa6b1b71b43787e9228c25fe15aeba)
+[How to install CUDA & cuDNN on Ubuntu 22.04](https://gist.github.com/denguir/b21aa66ae7fb1089655dd9de8351a202)
+[How to install TensorFlow2 with GPU support on Ubuntu 22.04](https://medium.com/@chavezgm2012/installing-tensorflow-2-12-with-gpu-support-on-ubuntu-22-04-250429035e63)
+[How to install Tensorflow2 with GPU support in Ubuntu 20.04](https://gist.github.com/raulqf/2d5f2b33549e56a6bb7c9f52a7fd471c)
+   ```
